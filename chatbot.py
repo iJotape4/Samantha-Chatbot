@@ -1,5 +1,6 @@
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer, ChatterBotCorpusTrainer
+from pytz import UTC
 
 # Creating ChatBot Instance
 #chatbot = ChatBot('Samantha')
