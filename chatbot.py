@@ -22,11 +22,11 @@ chatbot = ChatBot(
 
  # Training with Personal Ques & Ans 
 #training_data_quesans = open('training_data/ques_ans.txt').read().splitlines()
-training_data_personal = open('training_data/personal_ques.txt').read().splitlines()
-training_data_bot = open('training_data/bot.txt').read().splitlines()
-training_data_emociones = open('training_data/emociones.txt').read().splitlines()
-training_data_saludos = open('training_data/saludos.txt').read().splitlines()
-training_data_trivia = open('training_data/trivia.txt').read().splitlines()
+training_data_personal = open('training_data/personal_ques.txt', encoding="utf8").read().splitlines()
+training_data_bot = open('training_data/bot.txt', encoding="utf8").read().splitlines()
+training_data_emociones = open('training_data/emociones.txt', encoding="utf8").read().splitlines()
+training_data_saludos = open('training_data/saludos.txt', encoding="utf8").read().splitlines()
+training_data_trivia = open('training_data/trivia.txt', encoding="utf8").read().splitlines()
 
 training_data = training_data_personal + training_data_bot + training_data_emociones + training_data_saludos + training_data_trivia
 
