@@ -3,14 +3,12 @@ from chatterbot.trainers import ListTrainer, ChatterBotCorpusTrainer
 from pytz import UTC
 
 # Creating ChatBot Instance
-#chatbot = ChatBot('Samantha')
-
 chatbot = ChatBot(
     'Samantha',
     storage_adapter='chatterbot.storage.SQLStorageAdapter',
     logic_adapters=[
-        'chatterbot.logic.MathematicalEvaluation',
-        'chatterbot.logic.TimeLogicAdapter',
+        #'chatterbot.logic.MathematicalEvaluation',
+        #'chatterbot.logic.TimeLogicAdapter',           de aqui viene el current time
         'chatterbot.logic.BestMatch',
         {
             'import_path': 'chatterbot.logic.BestMatch',
@@ -29,7 +27,9 @@ training_data_emociones = open('training_data/emociones.txt', encoding="utf8").r
 training_data_saludos = open('training_data/saludos.txt', encoding="utf8").read().splitlines()
 training_data_trivia = open('training_data/trivia.txt', encoding="utf8").read().splitlines()
 
+#Entrenamiento
 training_data = training_data_personal + training_data_bot + training_data_emociones + training_data_saludos + training_data_trivia
+#####
 
 trainer = ListTrainer(chatbot)
 trainer.train(training_data)  
