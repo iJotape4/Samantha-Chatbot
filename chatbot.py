@@ -26,6 +26,8 @@ training_data_bot = open('training_data/bot.txt', encoding="utf8").read().splitl
 training_data_emociones = open('training_data/emociones.txt', encoding="utf8").read().splitlines()
 training_data_saludos = open('training_data/saludos.txt', encoding="utf8").read().splitlines()
 training_data_trivia = open('training_data/trivia.txt', encoding="utf8").read().splitlines()
+training_data_trivia = open('training_data/psico2.txt', encoding="utf8").read().splitlines()
+training_data_trivia = open('training_data/psico3.txt', encoding="utf8").read().splitlines()
 
 #Entrenamiento
 training_data = training_data_personal + training_data_bot + training_data_emociones + training_data_saludos + training_data_trivia
