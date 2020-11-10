@@ -1,12 +1,7 @@
-Hola me llamo
-Hola ¿qué tal? gusto en verte
-Hola mi nombre es
-Hola ¿qué tal? gusto en verte
-Hola
 ¿Qué tal? Adelante por favor, siéntese por acá en el sillón.
 ¿Cómo no, Marcelo?
 Bueno, cuénteme… ¿por qué decidió empezar terapia?
-Estem, bueno, yo, eh…
+ Estem, bueno, yo, eh…
 Disculpe, ¿me podría recordar su nombre?
 Claudio. Claudio Poclaba.
 ¿Qué edad tiene, Claudio?
